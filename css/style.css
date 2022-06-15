@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Utilities Classes */
+.btn-yellow {
+  background: #ffcc00;
+  color: #000066;
+}
+
+.text-yellow {
+  color: #ffcc00;
+}
+.text-blue {
+  color: #000066;
+}
+
+/* Showcase */
+#main-showcase {
+  background: url("../img/showcase.png") no-repeat center center/cover;
+}
+
+#main-showcase #showcase h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#main-showcase #showcase p {
+  font-family: "Outfit";
+  font-weight: 400;
+  width: 600px;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+}
+
+#about .container {
+  margin: 0 130px;
+}
+
+/* #about .main-img {
+  background-image: center center/cover;
+} */
+
+#about .row {
+  width: 80vw;
+}
+
+#product .container {
+  margin: 0 130px;
+}
+
+#product .product-img {
+  background-color: whitesmoke;
+  padding: 10px;
+  height: 307.933837890625px;
+  width: 310.9230651855469px;
+}
+
+#product .people .col-4 {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#partners {
+  background: url("../img/partners.png") no-repeat center center/cover;
+  width: 1440px;
+  height: 556px;
+  left: 0px;
+  margin-bottom: 100px;
+}
+
+#updates {
+  background: url("../img/updates.png") no-repeat center center/cover;
+  width: 1440px;
+  height: 501px;
+  left: 0px;
+}
+
+#updates h3 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+#updates input {
+  height: 40px;
+  width: 290px;
+  border-radius: 8px;
+}
+
+#updates input[type="button"] {
+  width: 5%;
+}
+
+#main-footer {
+  background: #1c5281;
+  height: 292px;
+}
+
+#main-footer ul li,
+#main-footer p {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  text-align: start;
+}
+
+#main-footer > *:first-child {
+  padding-top: 80px;
+}
